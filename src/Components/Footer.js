@@ -8,9 +8,15 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <FacebookIcon />
-        <InstagramIcon />
-        <TwitterIcon />
+        <a href="https://www.facebook.com/" target="_blank">
+          <FacebookIcon />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <InstagramIcon />
+        </a>
+        <a href="https://twitter.com/login?lang=tr">
+          <TwitterIcon />{" "}
+        </a>
       </div>
       <p>Tüm hakları saklıdır | BurgerYiyelim</p>
     </div>
